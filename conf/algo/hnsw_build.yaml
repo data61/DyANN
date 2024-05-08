@@ -1,0 +1,33 @@
+algo:
+  # Algorithm name
+  name: hnsw
+
+  # Algorithm build and update paramaters
+  build:
+    - {ef_construction:  25, M: 2, skips: 0 }
+    - {ef_construction:  50, M: 2, skips: 0 }
+    - {ef_construction: 100, M: 2, skips: 0 }
+    - {ef_construction:  25, M: 4, skips: 0 }
+    - {ef_construction:  50, M: 4, skips: 0 }
+    - {ef_construction: 100, M: 4, skips: 0 }
+    - {ef_construction:  25, M: 8, skips: 0 }
+    - {ef_construction:  50, M: 8, skips: 0 }
+    - {ef_construction: 100, M: 8, skips: 0 }
+    - {ef_construction:  25, M: 2, skips: 0.01 }
+    - {ef_construction:  50, M: 2, skips: 0.01 }
+    - {ef_construction: 100, M: 2, skips: 0.01 }
+    - {ef_construction:  25, M: 4, skips: 0.01 }
+    - {ef_construction:  50, M: 4, skips: 0.01 }
+    - {ef_construction: 100, M: 4, skips: 0.01 }
+    - {ef_construction:  25, M: 8, skips: 0.01 }
+    - {ef_construction:  50, M: 8, skips: 0.01 }
+    - {ef_construction: 100, M: 8, skips: 0.01 }
+    - {ef_construction:  25, M: 2, skips: 0.1 }
+    - {ef_construction:  50, M: 2, skips: 0.1 }
+    - {ef_construction: 100, M: 2, skips: 0.1 }
+    - {ef_construction:  25, M: 4, skips: 0.1 }
+    - {ef_construction:  50, M: 4, skips: 0.1 }
+    - {ef_construction: 100, M: 4, skips: 0.1 }
+    - {ef_construction:  25, M: 8, skips: 0.1 }
+    - {ef_construction:  50, M: 8, skips: 0.1 }
+    - {ef_construction: 100, M: 8, skips: 0.1 }

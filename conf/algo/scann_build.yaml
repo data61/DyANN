@@ -1,0 +1,33 @@
+algo:
+  # Algorithm name
+  name: scann
+
+  # Algorithm build and update paramaters
+  build:
+    - { num_leaves:  5, reorder:  0, skips: 0.05 }
+    - { num_leaves: 10, reorder:  0, skips: 0.05 }
+    - { num_leaves: 20, reorder:  0, skips: 0.05 }
+    - { num_leaves:  5, reorder: 10, skips: 0.05 }
+    - { num_leaves: 10, reorder: 10, skips: 0.05 }
+    - { num_leaves: 20, reorder: 10, skips: 0.05 }
+    - { num_leaves:  5, reorder: 20, skips: 0.05 }
+    - { num_leaves: 10, reorder: 20, skips: 0.05 }
+    - { num_leaves: 20, reorder: 20, skips: 0.05 }
+    - { num_leaves:  5, reorder:  0, skips: 0.1 }
+    - { num_leaves: 10, reorder:  0, skips: 0.1 }
+    - { num_leaves: 20, reorder:  0, skips: 0.1 }
+    - { num_leaves:  5, reorder: 10, skips: 0.1 }
+    - { num_leaves: 10, reorder: 10, skips: 0.1 }
+    - { num_leaves: 20, reorder: 10, skips: 0.1 }
+    - { num_leaves:  5, reorder: 20, skips: 0.1 }
+    - { num_leaves: 10, reorder: 20, skips: 0.1 }
+    - { num_leaves: 20, reorder: 20, skips: 0.1 }
+    - { num_leaves:  5, reorder:  0, skips: 0.2 }
+    - { num_leaves: 10, reorder:  0, skips: 0.2 }
+    - { num_leaves: 20, reorder:  0, skips: 0.2 }
+    - { num_leaves:  5, reorder: 10, skips: 0.2 }
+    - { num_leaves: 10, reorder: 10, skips: 0.2 }
+    - { num_leaves: 20, reorder: 10, skips: 0.2 }
+    - { num_leaves:  5, reorder: 20, skips: 0.2 }
+    - { num_leaves: 10, reorder: 20, skips: 0.2 }
+    - { num_leaves: 20, reorder: 20, skips: 0.2 }

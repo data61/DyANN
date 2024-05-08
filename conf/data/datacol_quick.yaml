@@ -1,0 +1,8 @@
+data:
+  # Dataset name
+  name: datacol
+  # Dataset parameters
+  path: ./dataset/sift1m
+  scale: [10]
+  mode: default
+  timings: 20

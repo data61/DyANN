@@ -1,0 +1,8 @@
+algo:
+  # Algorithm search paramaters
+  query:
+    - nprobe: 1
+    - nprobe: 2
+    - nprobe: 4
+    - nprobe: 8
+    - nprobe: 16

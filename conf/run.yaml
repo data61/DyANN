@@ -1,0 +1,9 @@
+# Default parameters for dataset and algorithm
+data: [datacol]
+algo: [linear]
+# Data output directory
+output: ./output
+# Memory footprint measure selected from {psu_rss, psu_vms, psu_shr, res_rss, ps_rss, ps_vms, ps_mem, trc_mem, trc_peak}
+mem_type: psu_rss
+# Neighbourhood set size
+topk: 50

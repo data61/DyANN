@@ -1,0 +1,8 @@
+algo:
+  # Algorithm search paramaters
+  query:
+    - ef: 1
+    - ef: 4
+    - ef: 16
+    - ef: 64
+    - ef: 256

@@ -1,0 +1,14 @@
+algo:
+  # Algorithm name
+  name: linear
+
+  # Algorithm build and update paramaters
+  build:
+    - skips: 0
+    - skips: 0.05
+    - skips: 0.1
+    - skips: 0.2
+    - skips: 0.3
+    - skips: 0.4
+    - skips: 0.5
+

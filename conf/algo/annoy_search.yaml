@@ -1,0 +1,8 @@
+algo:
+  # Algorithm search paramaters
+  query:
+    - search_k: 50
+    - search_k: 100
+    - search_k: 200
+    - search_k: 400
+    - search_k: 800

@@ -1,0 +1,30 @@
+algo:
+  # Algorithm name
+  name: annoy
+
+  # Algorithm build and update paramaters
+  build:
+    - n_trees:  1
+      skips: 0.05
+    - n_trees:  2
+      skips: 0.05
+    - n_trees:  5
+      skips: 0.05
+    - n_trees: 10
+      skips: 0.05
+    - n_trees:  1
+      skips: 0.1
+    - n_trees:  2
+      skips: 0.1
+    - n_trees:  5
+      skips: 0.1
+    - n_trees: 10
+      skips: 0.1
+    - n_trees:  1
+      skips: 0.2
+    - n_trees:  2
+      skips: 0.2
+    - n_trees:  5
+      skips: 0.2
+    - n_trees: 10
+      skips: 0.2

@@ -1,0 +1,54 @@
+algo:
+  # Algorithm name
+  name: kdtree
+
+  # Algorithm build and update paramaters
+  build:
+    - num_leaves:  50
+      skips: 0.05
+    - num_leaves: 100
+      skips: 0.05
+    - num_leaves: 200
+      skips: 0.05
+    - num_leaves: 400
+      skips: 0.05
+    - num_leaves:  50
+      skips: 0.1
+    - num_leaves: 100
+      skips: 0.1
+    - num_leaves: 200
+      skips: 0.1
+    - num_leaves: 400
+      skips: 0.1
+    - num_leaves:  50
+      skips: 0.2
+    - num_leaves: 100
+      skips: 0.2
+    - num_leaves: 200
+      skips: 0.2
+    - num_leaves: 400
+      skips: 0.2
+    - num_leaves:  50
+      skips: 0.3
+    - num_leaves: 100
+      skips: 0.3
+    - num_leaves: 200
+      skips: 0.3
+    - num_leaves: 400
+      skips: 0.3
+    - num_leaves:  50
+      skips: 0.4
+    - num_leaves: 100
+      skips: 0.4
+    - num_leaves: 200
+      skips: 0.4
+    - num_leaves: 400
+      skips: 0.4
+    - num_leaves:  50
+      skips: 0.5
+    - num_leaves: 100
+      skips: 0.5
+    - num_leaves: 200
+      skips: 0.5
+    - num_leaves: 400
+      skips: 0.5

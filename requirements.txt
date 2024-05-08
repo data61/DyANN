@@ -1,0 +1,8 @@
+omegaconf
+psutil
+matplotlib
+annoy
+hnswlib
+scann
+faiss-cpu
+sklearn

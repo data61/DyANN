@@ -1,0 +1,24 @@
+algo:
+  # Algorithm name
+  name: ivfpq4bit
+
+  # Algorithm build and update paramaters
+  build:
+    - { M: 16, nlist: 25, skips: 0 }
+    - { M: 32, nlist: 25, skips: 0 }
+    - { M: 64, nlist: 25, skips: 0 }
+    - { M: 16, nlist: 50, skips: 0 }
+    - { M: 32, nlist: 50, skips: 0 }
+    - { M: 64, nlist: 50, skips: 0 }
+    - { M: 16, nlist: 25, skips: 0.01 }
+    - { M: 32, nlist: 25, skips: 0.01 }
+    - { M: 64, nlist: 25, skips: 0.01 }
+    - { M: 16, nlist: 50, skips: 0.01 }
+    - { M: 32, nlist: 50, skips: 0.01 }
+    - { M: 64, nlist: 50, skips: 0.01 }
+    - { M: 16, nlist: 25, skips: 0.1 }
+    - { M: 32, nlist: 25, skips: 0.1 }
+    - { M: 64, nlist: 25, skips: 0.1 }
+    - { M: 16, nlist: 50, skips: 0.1 }
+    - { M: 32, nlist: 50, skips: 0.1 }
+    - { M: 64, nlist: 50, skips: 0.1 }

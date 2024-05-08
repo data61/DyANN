@@ -1,0 +1,10 @@
+# Directories for loading and saving data
+output: ./output
+img_out: ./img
+csv_out: ./csv
+
+# Additional parameters
+window: 0.1
+with_query_param: false
+width: 10
+height: 8

@@ -1,0 +1,10 @@
+data:
+  # Dataset name
+  name: featlearn
+  # Dataset parameters
+  path: ./dataset/deep1m
+  scale: [1, 2, 5, 10, 20, 50, 100, 200, 500]
+  mode: lerp
+  lerp: 0.2
+  epochs: 20
+  batch: 200

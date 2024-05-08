@@ -1,0 +1,4 @@
+algo:
+  # Algorithm search paramaters
+  query:
+    - default: 0
