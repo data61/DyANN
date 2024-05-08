@@ -10,6 +10,7 @@
 ## Install the framework
 
 Unpackage code and setup python environment
+
     > tar xvzf dyann.tar.gz
     > cd dyann
     > /apps/python/3.9.X/bin/python3 -m venv env
@@ -19,16 +20,19 @@ Unpackage code and setup python environment
 ## Running the code
 
 Quick test
+
     > python download.py data=[datacol_quick]
     > python run.py data=[datacol_quick] algo=[linear,hnsw]
     > python plot-pareto.py data=[datacol_quick] algo=[linear,hnsw]
     > python plot-algo.py data=[datacol_quick] algo=[hnsw]
 
 Preload all datasets and pregenerate all groundtruth (could take hours, ensure at least 30GB space)
+
     > python download.py data=[datacol,datacol_lerp,datacol_efreq,datacol_esfreq]
     > python download.py data=[featlearn,featlearn_lerp,featlearn_efreq,featlearn_esfreq]
 
 Generate all benchmarking results (can easily take days or weeks, best run in parallel with a job scheduler)
+
     > python run.py data=[datacol,datacol_lerp,datacol_efreq,datacol_esfreq] algo=[linear,annoy,hnsw,ivfpq,scann,kdtree]
     > python run.py data=[featlearn,featlearn_lerp,featlearn_efreq,featlearn_esfreq] algo=[linear,annoy,hnsw,ivfpq,scann,kdtree]
 
